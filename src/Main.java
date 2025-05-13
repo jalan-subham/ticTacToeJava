@@ -1,5 +1,4 @@
 import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

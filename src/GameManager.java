@@ -54,7 +54,6 @@ public class GameManager {
 
         Player currentPlayer;
 
-        boolean victory = false;
 
         for (int i = 0; i < 9; i++) {
             // play the nine moves
@@ -81,7 +80,6 @@ public class GameManager {
 
             if (gameBoard.isWinner()) {
                 System.out.printf("Player %s wins.\n\n", currentPlayer.symbol);
-                victory = true;
                 break;
             }
 

@@ -1,18 +1,15 @@
-import java.util.Arrays;
-
 public class Board {
-    private char[][] board;
+    private final char[][] board;
 
     Board() {
         this.board = new char[3][3];
     }
 
-    public boolean placeSymbol(int i, int j, char symbol) {
+    public void placeSymbol(int i, int j, char symbol) {
         if (this.board[i][j] != 0)  {
-            return false;
+            return;
         }
         this.board[i][j] = symbol;
-        return true;
     }
 
     public boolean isValid(int i, int j) {
